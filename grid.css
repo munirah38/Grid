@@ -1,0 +1,205 @@
+.grid-container {
+    border: thick solid blue;
+    padding: 10px;
+    width: 90%;
+    margin: 50px auto;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-items {
+    border: medium solid red;
+    height: 20vh;
+}
+</div>
+<div class="join">
+    <div class="userFa">
+         <i class="fa fa-user fa-4x"></i>
+         <div class="joinQuestion"> Want to join GoTaxi?</div>
+         <div class="regText">Register as a driver, partner or business partner</div>
+         <button id="signupBtn"> <a id="signupAnchor" href="#">SIGNUP NOW</a></button>    
+    </div>   
+</div>
+<div class="goNeeds">
+    <div id="deliveryHeader">We are ready to deliver whatever your needs.
+     </div>
+    <div class="cards">
+        <div class="card">
+            <div class="positionFaContainer">
+                <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/mcar.png"/>
+                <div class="fontAwesomeContainer">
+                     <i class="fa fa-car faRide fa-3x" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3 class="goText">GO-TAXI</h3> 
+            <div class="goLine"></div>
+            <p class="goMessage">Transportation services by car to present comfort and style. Go to your destination safely
+            </p>  
+        </div>
+        <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/mride.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-motorcycle faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-MOTO</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">Motorized transport services to cope with congestion. Go to your destination quickly and safely.
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/mmassage.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-box faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-MASSAGE</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">24 hour call massage service, ready to be called home, office and wherever you are on the move.
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/mfood.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-bus faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-FOOD</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">The world's largest food-service messaging service and working with 125,000 merchants
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/service.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-bus faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-SERVICE</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">The world's largest food-service messaging service and working with 125,000 merchants
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/mart.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-bus faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-MART</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">The world's largest food-service messaging service and working with 125,000 merchants
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/box.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-bus faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-BOX</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">The world's largest food-service messaging service and working with 125,000 merchants
+             </p>  
+         </div>
+         <div class="card">
+             <div class="positionFaContainer">
+                 <img class="cardImg" src="https://atomty1.github.io/goTaxi/assets/msend.png"/>
+                 <div class="fontAwesomeContainer">
+                     <i class="fa fa-bus faRide fa-3x" aria-hidden="true"></i>
+                 </div>
+             </div>
+             <h3 class="goText">GO-SEND</h3> 
+             <div class="goLine"></div>
+             <p class="goMessage">The world's largest food-service messaging service and working with 125,000 merchants
+             </p>  
+         </div>
+
+    </div>
+    
+    <div class="goBlueBack">
+ 
+     </div>
+    
+</div>
+<div class="backUseContainer">
+    <div class="backUseInnerContainer">
+         <div class="easeOfUse">
+                 <h2 class="easeOfUseHeader">EASE OF USE OF GOTAXI</h2>
+                 <div class="easeOfUseMain easeFirst">
+                     <h3 class="useHeader headerFirst">SPECIFY PICK-UP AND DELIVERY</h3>
+                     <p class="useContent useFirst">Specify pickup and delivery points.
+                         Go-Taxi will estimate the delivery cost for you.
+                     </p>
+                 </div>
+                 <div class="easeOfUseMain easeSecond">
+                     <h3 class="useHeader headerSecond">DRIVER SEARCH</h3>
+                     <p class="useContent useSecond">Go-Taxi will find drivers around you.
+                         You just wait for confirmation from drivers
+                     </p>
+                 </div>
+                 <div class="easeOfUseMain easeThird">
+                     <h3 class="useHeader headerThird">CHAT FEATURE</h3>
+                     <p class="useContent useThird">Once driver finds you, easily contact them
+                         by phone or free chat. Rates will be adjusted 
+                         according to the distance pickup and delivery.
+                     </p>
+                 </div>
+         </div>
+         <div class="easeOfUseImage">
+             <div class="viewImage"></div>
+             <!-- <img id="viewImage" src="/assets/view1.jpg"/> -->
+         </div>
+    </div>
+</div>
+<div class="animationContainer">
+    
+    <div id="secondVehicle" class="movingVehicle"></div>
+    <div id="reverseVehicle" class="movingVehicle"></div>
+    <div id="firstVehicle" class="movingVehicle"></div>
+</div>
+<footer>
+    <div class="footerContainer">
+         <div class="logoContainer">
+             <img id="logoWhite" src="https://atomty1.github.io/goTaxi/assets/logo_white.png"/>
+             <div class="socialsContainer">
+                 <div class="socials"><i class="fab fa-facebook-f"></i></div>
+                 <div class="socials"><i class="fab fa-twitter"></i></div>
+                 <div class="socials"><i class="fab fa-linkedin-in"></i></div>
+
+             </div>
+            
+         </div>
+         <div class="myUrlsContainer">
+             <div class="myUrls">
+                 <ul>
+                     <li style="color:white">Company</li>
+                     <li><a class="footerAnchor" href="#">Home</a></li>
+                     <li><a class="footerAnchor" href="#">Contact us</a></li>
+                     <li><a class="footerAnchor" href="#">FAQ</a></li>
+                     <li><a class="footerAnchor" href="#">Terms & Condition</a></li>
+                     <li><a class="footerAnchor" href="#">Privacy Policy</a></li>
+                 </ul>
+
+             </div>
+             
+         </div>
+         <div class="footerBtnContainer">
+             <button id="footerBtn"><a>JOIN A DRIVER</a></button>
+         </div>
+
+    </div>
+    <div class="footerLine"></div>
+    <div class="copyright">copyright &copy; 2020 GOTAXI. All rights reserved</div>
+ </footer>
+</div> 
+</body>
+</html>

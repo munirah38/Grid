@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+div.nav{
+    background-color: aliceblue;
+    height: 50px;
+    padding: 2px 0px 10px 0px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 1px 5px -5px #000;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px 110px 15px 0px;
+}
+button{
+    background-color: #00b4d8;
+    padding: 10px 25px 10px 25px;
+    margin: 0 0.5%;
+    border: 1px solid #00b4d8;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0 3px 12px 0 #00b4d8;
+}
+.camo{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover:not(#signupAnchor){
+        text-decoration: underline;
+    }
+.carousel{
+        margin: 0px;
+    }
+.phoneImg{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        background-image: url('https://atomty1.github.io/goTaxi/assets/asset.jpg');
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: phoneImgBackground 10s cubic-bezier(0, 1, 0, 1) infinite;
+    }
+    @keyframes phoneImgBackground {
+        0{background-image: url('https://atomty1.github.io/goTaxi/assets/asset.jpg');}
+        /* 10%{background-image: url('https://atomty1.github.io/goTaxi/assets/asset.jpg');} */
+       33%{background-image: url('https://atomty1.github.io/goTaxi/assets/asset1.jpg');}
+        66%{background-image: url('https://atomty1.github.io/goTaxi/assets/asset2.jpg');}
+    }
+    .phoneCircle{
+        border: 1px solid white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    .Firstcircle{
+        animation: firstcircle 10s cubic-bezier(0, 1, 0 ,1) infinite; 
+    }
+    .Secondcircle{
+        animation: firstcircle 10s cubic-bezier(0, 1, 0 ,1) infinite; 
+    }
+    .Third                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    }
+    
+
+
